@@ -40,8 +40,8 @@ The system accepts commands via serial communication at 9600 baud rate. Two type
 2. LED2 control: Send "LED2" followed by PWM value (0-255)
 
 ### Example Commands:
-- To set LED1 blink delay to 1 second: `LED1<value>`
-- To set LED2 brightness to 50%: `LED2<value>`
+- To set LED1 blink delay to 1 second: `LED1 1000`
+- To set LED2 brightness to 50%: `LED2 128`
 
 ## Task Architecture
 
